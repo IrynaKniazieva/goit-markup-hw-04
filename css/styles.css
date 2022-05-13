@@ -390,18 +390,31 @@ height: 101px;
 
 /* секция Clients */
 
-.clients-item {
-    display: block;
+.clients-list {
+    display: flex;
     align-items: center;
     justify-content: center;
+}
     
-
+    
+.clients-item {
     width: 170px;
     height: 92px;
 
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-} 
+}
+
+.clients-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+  
+}
+     
 
 
 
