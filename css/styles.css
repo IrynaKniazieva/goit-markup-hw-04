@@ -388,6 +388,23 @@ height: 101px;
         
 }
 
+/* секция Clients */
+
+.clients-item {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+} 
+
+
+
 
 /* footer */
 
@@ -397,16 +414,10 @@ height: 101px;
     padding-bottom: 60px;
 }
 
-/* .footer-container {
-    display: flex;
-    flex-direction: column;
-} */
-
 
 .footer-logo {
     color: var(--white-color);
     }
-
 
 
 .address-item {
