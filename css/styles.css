@@ -398,6 +398,9 @@ height: 101px;
     
     
 .clients-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 170px;
     height: 92px;
 
@@ -405,15 +408,13 @@ height: 101px;
     border-radius: 4px;
 }
 
-.clients-icon {
+/* .clients-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     
-
-    
   
-}
+} */
      
 
 
