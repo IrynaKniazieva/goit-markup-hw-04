@@ -488,6 +488,7 @@ height: 101px;
 /* footer */
 
 .footer {
+  
     width: 1600px;
     margin-left: auto;
     margin-right: auto;
@@ -496,11 +497,7 @@ height: 101px;
     padding-bottom: 60px;
 }
 
-.container-footer {
-    display: inline-block;
-    align-items: center;
-    justify-content: center
-}
+
 
 .footer-logo {
     color: var(--white-color);
@@ -548,12 +545,8 @@ text-transform: uppercase;
 color: var(--white-color)
 }
 
-.container-social {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    
-}
+
+
 
 .container-social .link-social {
     color: var(--white-color);
