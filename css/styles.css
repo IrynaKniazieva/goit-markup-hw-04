@@ -32,7 +32,7 @@ img {
 }
 
 .container {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 
     width: 1200px;
 
@@ -229,9 +229,9 @@ img {
 
 /* секции особенности  */
 
-.section-feature {
+/* .section-feature {
     padding-bottom: 0;
-}
+} */
 
 .text {
     font-weight: 400;
@@ -265,6 +265,17 @@ height: 101px;
     color: var(--title-text-color);
 }
 
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: var(--bkg-btn-color);
+}
+
 /* секция чем мы занимаемся */
 .section-title {
 
@@ -296,6 +307,9 @@ height: 101px;
 
 /* секция Наша команда */
 .section-team {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--bkg-btn-color);
 }
 
@@ -397,11 +411,6 @@ height: 101px;
 }
 
 
-/* .icons-social {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 
 /* абзацы */
@@ -479,11 +488,19 @@ height: 101px;
 /* footer */
 
 .footer {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--bkg-dark-color);
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
+.container-footer {
+    display: inline-block;
+    align-items: center;
+    justify-content: center
+}
 
 .footer-logo {
     color: var(--white-color);
@@ -519,6 +536,30 @@ height: 101px;
 .list-address .item:last-child {
     margin-bottom: 0;
 }
+
+.subject {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--white-color)
+}
+
+.container-social {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-social .link-social {
+    color: var(--white-color);
+}
+
+
 
 /* Portfolio */
 
