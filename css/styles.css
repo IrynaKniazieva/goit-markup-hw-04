@@ -229,9 +229,9 @@ img {
 
 /* секции особенности  */
 
-/* .section-feature {
+.section-feature {
     padding-bottom: 0;
-} */
+} 
 
 .text {
     font-weight: 400;
@@ -390,10 +390,19 @@ img {
     justify-content: center;
     width: 44px;
     height: 44px;
+   
     color: var(--primary-text-color);
  
     border-radius: 50%;
 }
+
+.list-social .item-social {
+    margin-right: 10px;
+}
+
+.list-social .item-social:last-child {
+    margin-right: 0;
+}  
 
 .link-social:hover,
 .link-social:focus {
@@ -492,12 +501,10 @@ img {
 /* footer */
 
 .footer {
-   display: flex;
-   align-items: baseline;
+   
   
-    width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
+    
+   
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--bkg-dark-color);
@@ -537,8 +544,15 @@ color: var(--white-color);
 
 }
 
+.container-social-footer .link-social {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
 .container-social-footer .icons-social{
-fill: var(--white-color);
+    
+    fill: var(--white-color);
+
 }
 
 .footer-logo {
