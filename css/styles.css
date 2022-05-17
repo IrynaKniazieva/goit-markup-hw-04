@@ -481,15 +481,14 @@ img {
 
 .clients-item:hover {
     border-color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .clients-icon {
     fill: currentColor;
 }
 
-.clients-icon:hover {
-    fill: var(--accent-color)
-}
+
 
 .clients-item {
     margin-right: 30px;
