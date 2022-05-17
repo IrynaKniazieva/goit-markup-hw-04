@@ -170,7 +170,7 @@ img {
 /* hero */
 
 .hero {
-    width: 1600px;
+    max-width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -307,7 +307,7 @@ img {
 
 /* секция Наша команда */
 .section-team {
-    width: 1600px;
+    /* width: 1600px; */
     margin-left: auto;
     margin-right: auto;
     background-color: var(--bkg-btn-color);
@@ -407,17 +407,19 @@ img {
 .link-social:hover,
 .link-social:focus {
     background-color: var(--accent-color);
-    
+    color: var(--white-color);
 }
 
 .icons-social {
     fill: currentColor;
+       
 }
 
-.icons-social:hover,
+/* .icons-social:hover,
 .icons-social:focus {
     fill: var(--white-color);
-}
+   
+} */
 
 
 
@@ -555,6 +557,11 @@ color: var(--white-color);
 
 }
 
+.container-social-footer .link-social:hover,
+.container-social-footer .link-social:focus {
+    background-color: var(--accent-color);
+}
+
 .footer-logo {
    
     color: var(--white-color);
@@ -583,6 +590,8 @@ color: var(--white-color);
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+
+
 
 .list-address .item {
     margin-bottom: 9px;
